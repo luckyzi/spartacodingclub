@@ -1,6 +1,8 @@
 # spartacodingclub
 스파르타코딩클럽 21년 신년운세 패키지
 
+1일차 
+
 강의자료
 https://www.notion.so/1-4b2f8f0a33c04b2d8fd1604458480a71#4f468921ef9b4e2eb041a1940e500047
 
@@ -35,7 +37,7 @@ https://www.notion.so/1-4b2f8f0a33c04b2d8fd1604458480a71#4f468921ef9b4e2eb041a19
   - flex 속성은 div 안의 내용물을 정렬하는 방법
 - `display:flex`
 - `flex-direction:row`
-- `justify-content:center` 세 개가 거의 같이 다님.
+- `justify-content:center` 세가지가 기본적으로 같이 다닌다고 생각해야 함.
 8. CSS 적용하기 - 르탄이들(2)
   백그라운드 이미지 적용시 아래 3가지를 기본으로 설정하게 됨.
     - background-image: url("");
@@ -44,3 +46,31 @@ https://www.notion.so/1-4b2f8f0a33c04b2d8fd1604458480a71#4f468921ef9b4e2eb041a19
 9. hover 효과주기, 다듬기
   식별자:hover{}
     - 마우스를 가져다 댔을 때 변경 적용
+10. 마우스를 가져다 댔을 때 해당 동물명이 흰색 글자로 나타나게 할 것
+  원리: 흰 글씨가 처음부터 있었음
+
+
+2일차 
+
+강의자료
+https://www.notion.so/2-8f47e14182904060b19543b51f672aa2#6d9777f4abec494c9f98788f9ef782d9
+
+1. 운세페이지 만들기
+  빈 result.html을 만들고 index.html와 연결
+2. 르탄이만들기
+  index.html에서 코드 재활용. 결과페이지 이기 때문에 a태그를 div 태그로 바꿔야함.
+3. 메세지 만들기
+  <h1>과 <p>태그와 <br>태그 사용
+4. 버튼 만들기
+  <div>안에 <button> 2개를 묶어주고 버튼의 중앙 정렬은 flex 사용.
+  flex 사용시 - `display:flex` / - `flex-direction:row` / - `justify-content:center` 3가지 한번 더 기억할 것.
+5. 모바일 버전 처리하기
+  @media screen and (max-width: OOpx){
+    body {
+      background-color: green;
+    }
+  } 
+    - 화면이 OOpx 이하 사이즈일 때 배경화면을 green으로 바꾸라는 의미.
+    - 배경 적용 / 캐릭터 여백 조정 / p태그 글자 조정 / br태그 무시
+6. 간단한 javascript 맛보기
+  
