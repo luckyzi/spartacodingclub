@@ -60,9 +60,9 @@ https://www.notion.so/2-8f47e14182904060b19543b51f672aa2#6d9777f4abec494c9f98788
 2. 르탄이만들기
   index.html에서 코드 재활용. 결과페이지 이기 때문에 a태그를 div 태그로 바꿔야함.
 3. 메세지 만들기
-  <h1>과 <p>태그와 <br>태그 사용
+  h1태그와 p태그와 br태그 사용
 4. 버튼 만들기
-  <div>안에 <button> 2개를 묶어주고 버튼의 중앙 정렬은 flex 사용.
+  div태그 안에 button태그 2개를 묶어주고 버튼의 중앙 정렬은 flex 사용.
   flex 사용시 - `display:flex` / - `flex-direction:row` / - `justify-content:center` 3가지 한번 더 기억할 것.
 5. 모바일 버전 처리하기
   @media screen and (max-width: OOpx){
@@ -79,4 +79,6 @@ https://www.notion.so/2-8f47e14182904060b19543b51f672aa2#6d9777f4abec494c9f98788
   그럼 만들어둔 2개의 페이지로 12개의 띠별 페이지가 다 따로 있는 것 같은 효과를 나타낼 수 있음.
 8. 공유를 위한 기초작업
   og:image / og:title / og:description
+  파비콘
+9. 배포
   
