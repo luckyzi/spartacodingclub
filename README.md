@@ -81,4 +81,4 @@ https://www.notion.so/2-8f47e14182904060b19543b51f672aa2#6d9777f4abec494c9f98788
   og:image / og:title / og:description
   파비콘
 9. 배포
-  
+  최종 배포된 페이지 https://new-year.spartacodingclub.kr/QbJbTmaFMEcC/index.html
